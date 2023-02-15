@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.slide_wrapper {
+  margin-top: 100px;
+  position: relative;
+  width: 1920px;
+  margin: auto;
+  height: 600px;
+  overflow: hidden;
+}
+.slides {
+  position: relative;
+  left: 0;
+  top: 0;
+  transition: left 0.5s ease-out;
+}
+.slides li:not(:last-child) {
+  float: left;
+  margin-right: 25px;
+}
+
+/* slide-buttons */
+.controls {
+  text-align: center;
+  margin-top: -606px;
+}
+.prev {
+  position: absolute;
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  margin-left: -30px;
+  left: 35px;
+}
+
+.next {
+  position: absolute;
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  margin-right: -26px;
+  right: 25px;
+}
+
+/* product */
+.product_list {
+  width: 30008px;
+  padding-left: 8.5px;
+  margin-top: 50px;
+}
+.product_list li {
+  float: left;
+  margin: 0 20px 20px 0;
+  position: relative;
+  width: 358px;
+  height: 531px;
+  border: 1px solid #d9d9d9;
+  border-radius: 50px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.product_list li:hover {
+  border-color: #8f8f8f;
+  transition: 0.7s;
+}
+.product_list dl {
+  padding: 374px 0 0 0;
+}
+.product_list dt {
+  padding: 11px 10px 14px;
+  border-top: 1px solid #e7e7e7;
+}
+.product_list dt a {
+  font-size: 16px;
+  padding: 15px;
+  text-decoration: none;
+  color: #333;
+}
+.product_list .img {
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.product_list img {
+  /* img size fix*/
+  width: 300px;
+  height: 370px;
+  margin: 10px 0 0 25px;
+}
+
+.product_list .price {
+  margin-top: 6px;
+  padding: 0 0 0 24px;
+  font-size: 21px;
+  color: #333;
+  font-weight: bold;
+}
+.product_list .btm {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #f0f0f0;
+  background: #fafafa;
+}
+.product_list .btm div {
+  float: left;
+  width: 50%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #767676;
+}
+.product_list .btm div a {
+  font-size: 12px;
+  color: #767676;
+}
+.product_list .btm div a img {
+  padding: 0 4px 0 0;
+}
+.product_list .h {
+  margin-top: 20px;
+}

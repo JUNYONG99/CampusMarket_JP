@@ -1,0 +1,207 @@
+.user_myimg {
+  margin-left: 300px;
+  margin-top: 200px;
+}
+.user_my {
+  margin-left: 200px;
+  margin-top: 50px;
+  font-size: 30px;
+  padding-bottom: 200px;
+  font-weight: 1000;
+}
+.user_myimg1 {
+  margin-left: 600px;
+  margin-top: -140px;
+}
+.user_my1 {
+  color: #477eff;
+  margin-right: 400px;
+  font-size: 32px;
+  margin-left: 300px;
+  margin-top: 50px;
+  font-size: 30px;
+  padding-bottom: 182px;
+  font-weight: 1000;
+  text-align: center;
+}
+.profile_image {
+  text-align: center;
+  margin-left: 300px;
+  font-size: 25px;
+  margin-top: -60px;
+}
+.login-form {
+  width: 300px;
+  margin-left: 454px;
+  padding: 20px;
+  text-align: center;
+}
+
+.user_myimg2 {
+  margin-left: 340px;
+  margin-top: 200px;
+}
+.user_my2 {
+  margin-top: 30px;
+  margin-left: 370px;
+  font-size: 30px;
+  font-weight: 1000;
+}
+.user_my3 {
+  margin-left: 240px;
+  font-size: 30px;
+  padding-bottom: 367px;
+  font-weight: 1000;
+}
+
+.text-field {
+  font-size: 14px;
+  padding: 10px;
+  border: none;
+  width: 350px;
+  height: 50px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 7px 7px 7px 7px;
+  margin-left: 60px;
+}
+
+.submit-btn {
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  width: 350px;
+  background-color: #477eff;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 15px;
+  margin-left: 60px;
+  color: white;
+}
+.submit-btn:hover {
+  background-color: #0064c9;
+  transition: 0.5s;
+  font-weight: 600;
+}
+
+.links {
+  text-align: center;
+}
+
+.links a {
+  font-size: 12px;
+}
+.nick {
+  margin-right: 52px;
+}
+.number {
+  margin-right: 60px;
+}
+.selling {
+  list-style: none;
+  font-size: 19px;
+}
+.selling1 {
+  list-style: none;
+  font-size: 19px;
+}
+.selling .selling1 {
+  float: left;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.selling .selling2 {
+  float: left;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.selling .selling3 {
+  float: right;
+  margin-top: 50px;
+  margin-right: 90px;
+  background-color: #477eff;
+  width: 100px;
+  border: 7px solid;
+  border-color: #477eff;
+  border-radius: 7px 7px 7px 7px;
+  text-align: center;
+  color: white;
+}
+.selling .selling3_red {
+  float: right;
+  margin-top: 50px;
+  margin-right: 90px;
+  background-color: #ff6c6c;
+  width: 100px;
+  border: 7px solid;
+  border-color: #ff6c6c;
+  border-radius: 7px 7px 7px 7px;
+  text-align: center;
+  color: white;
+}
+
+.selling .selling4 {
+  float: right;
+  padding-right: 50px;
+  margin-top: 57px;
+}
+.hr1 {
+  width: 106.7%;
+  border: solid 0.1px #d9d9d9;
+}
+
+.sub_dep2 a:hover {
+  color: #27beff;
+}
+.page_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  margin-left: 170px;
+  padding-bottom: 30px;
+}
+
+.page_btn .btn_img,
+.page_num {
+  margin-right: 85px;
+}
+
+.page_btn .page_num ul {
+  display: flex;
+}
+
+.page_btn .page_num li {
+  font-size: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 15px;
+  margin-right: 28px;
+}
+
+.page_btn .page_num li a {
+  padding: 18px 20px;
+}
+
+/* 파일 form 안보이게 하고 이미지로 대체 */
+input[type="file"] {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+/* 프로필 변경 이미지 */
+.user_myimg1 img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: solid 1px #ccc;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.login-form input {
+  outline: none;
+}
+
+input[type="submit"] {
+  box-shadow: 0px 3px 5px #cccccc;
+}

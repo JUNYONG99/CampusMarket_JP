@@ -1,0 +1,75 @@
+@import url("https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "NanumSquare", sans-serif;
+  color: #333333;
+}
+
+.inner_container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+table {
+  margin: unset;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: unset;
+  margin: unset;
+}
+
+a {
+  display: block;
+  color: #333333;
+  text-decoration: none;
+}
+
+figure {
+  margin: unset;
+}
+
+@font-face {
+  font-family: "NanumSquare";
+  font-weight: 300;
+  src: url(./images/NanumSquareL.eot);
+  src: url(./images/NanumSquareL.eot?#iefix) format("embedded-opentype"),
+    url(./images/NanumSquareL.woff) format("woff"),
+    url(./images/NanumSquareL.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "NanumSquare";
+  font-weight: 400;
+  src: url(./images/NanumSquareR.eot);
+  src: url(./images/NanumSquareR.eot?#iefix) format("embedded-opentype"),
+    url(./images/NanumSquareR.woff) format("woff"),
+    url(./images/NanumSquareR.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "NanumSquare";
+  font-weight: 700;
+  src: url(./images/NanumSquareB.eot);
+  src: url(./images/NanumSquareB.eot?#iefix) format("embedded-opentype"),
+    url(./images/NanumSquareB.woff) format("woff"),
+    url(./images/NanumSquareB.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "NanumSquare";
+  font-weight: 800;
+  src: url(./images/NanumSquareEB.eot);
+  src: url(./images/NanumSquareEB.eot?#iefix) format("embedded-opentype"),
+    url(./images/NanumSquareEB.woff) format("woff"),
+    url(./images/NanumSquareEB.ttf) format("truetype");
+}
