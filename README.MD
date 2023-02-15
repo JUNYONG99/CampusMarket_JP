@@ -1,5 +1,7 @@
 # CampusMarket
-学校中古取引サイト
+a used school website
 
 # Language
-HTML, CSS, JS, PHP
+HTML, CSS, JavaScript, PHP, MYSQL
+
+# 
