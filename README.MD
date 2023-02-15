@@ -2,10 +2,10 @@
 新旧大学生向け中古取引サイト
 
 ## Language
-HTML, CSS, JavaScript, PHP, MYSQL
+HTML・CSS・JavaScript・PHP・MYSQL
 
 ## Server
-fileZilla, cafe24
+fileZilla・cafe24
 
 ## CM.SQLデータの読み込み
 db_connect.php ・ php/db_connect.php 内容修正
