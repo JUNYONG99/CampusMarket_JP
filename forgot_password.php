@@ -15,7 +15,7 @@
         <div class="row">
             <div class="col-md-4 offset-md-4 form">
                 <form action="forgot_password.php" method="POST" autocomplete="">
-                    <h2 class="text-center"><b>パスワードを探す</b></h2>
+                    <h2 class="text-center"><b>パスワ-ドを探す</b></h2>
                     <p class="text-center">登録したメールを入力してください。</p>
                     <?php
                         if(count($errors) > 0){

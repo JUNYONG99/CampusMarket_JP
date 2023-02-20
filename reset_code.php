@@ -21,7 +21,7 @@ if($email == false){
         <div class="row">
             <div class="col-md-4 offset-md-4 form">
                 <form action="reset_code.php" method="POST" autocomplete="off">
-                    <h2 class="text-center">電子メール認証</h2>
+                    <h2 class="text-center">メール認証</h2>
                     <?php 
                     if(isset($_SESSION['info'])){
                         ?>
