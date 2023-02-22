@@ -15,7 +15,7 @@ if(isset($_SESSION['unique_id'])) {
         
         while($row = mysqli_fetch_assoc($query)) {
             $profile = $row['profile'];
-            if($row['outgoing_msg_id'] === $outgoing_id) { //if this is equal to then he is a sender
+            if($row['outgoing_msg_id'] === $outgoing_id) { //発信者
                 $output .= '<div class="first_chat chatting_content">
                                 <p>'. $row['msg'] .'</p>
                               <div class="first_chat_img chatting_img_box">
@@ -23,7 +23,7 @@ if(isset($_SESSION['unique_id'])) {
                               </div>
                             </div>';
             
-            } else { //he is a msg receiver
+            } else { //メッセージ受信
                 $output .= '<div class="second_chat chatting_content">
                               <div class="second_chat_img chatting_img_box">
                                 <img src="php/'.$profile.'" style="width: 60px; height: 60px; border-radius: 50%; object-fit:cover;">
