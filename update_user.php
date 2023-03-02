@@ -159,7 +159,7 @@ if(!isset($_SESSION['unique_id'])) {
             </div>
           <div class="chat_right">
                  <div class="user_my1">
-                        <span>会員情報修正</span>
+                       
                  </div>
                  <div class="user_myimg1">
                  <form action="php/update_user.php" method="POST" enctype="multipart/form-data">

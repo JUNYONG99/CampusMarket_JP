@@ -447,7 +447,7 @@
                   }
              ?>
 
-                    <li class="cell" style="width:504px; height:600px;">
+                    <li class="cell" style="width:33.33%; height:600px;">
                     <div class="book_img_box">
                       <a href="product_view.php?num=<?php echo $row['num']?>">
                       <img src="<?php echo $file_src ?>"  style="width:260px; height:380px; object-fit: cover;" />

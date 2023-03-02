@@ -113,13 +113,13 @@ require "php/db_connect.php";
 
     <!-- MainPage -->
     <div class="mainPage">
-      <img src="assets/images/main_banner.jpg" alt="" />
+      <img src="assets/images/main_banner.jpg" alt=""  style="width: 100%"/>
     </div>
     <div class="chatPage">
-      <img src="assets/images/chat_section.jpg" alt="" />
+      <img src="assets/images/chat_section.jpg" alt="" style="width: 100%"/>
     </div>
     <div class="sellPage">
-      <img src="assets/images/product_section.jpg" alt="" />
+      <img src="assets/images/product_section.jpg" alt="" style="width: 100%"/>
     </div>
 
     <div class="slide_wrapper">
