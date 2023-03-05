@@ -3,11 +3,105 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+body, html {
+  color: #333;
+}
+.search_box button {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin: -30px 0 0 0;
+  background: none;
+  margin-left: -10px;
+}
+.mainPage {
+  background: #477EFF;
+  width:100%; 
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+}
+.mainPage h1 {
+  display: block;
+  font-size: 3.4em;
+  color: #fff;
+}
+.mainPage p {
+  font-size: 1.3em;
+  padding-top: 20px;
+  color: #fff;
+}
+.mainPage img {
+  padding: 0 0 30px 300px;
+}
+.chatPage {
+  background: #fff;
+  width:100%; 
+  height: 750px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 2px;
+}
+.chatPage .chat-introduce {
+  padding-left: 150px;
+}
+.chatPage .chat-introduce h1 {
+  display: block;
+  font-size: 3.4em;
+}
+.chatPage .chat-introduce p {
+  font-size: 1.3em;
+  padding-top: 20px
+}
+.chatPage img {
+  height: 550px;
+  padding: 50px 0 0 0;
+  margin: 0 0 0 110px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1),
+  15px 15px 15px rgba(0, 0, 0, 0.1),
+  20px 20px 15px rgba(0, 0, 0, 0.1),
+  inset 1px 1px 2px #fff;
+}
+.chatPage .bell img {
+  height: 160px;
+  padding-left: 30px;
+  box-shadow: none;
+}
+.sellPage {
+  background: #78A7FF;
+  width:100%; 
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+}
+.sellPage .sell-introduce h1 {
+  display: block;
+  font-size: 3.4em;
+}
+.sellPage .sell-introduce p {
+  font-size: 1.3em;
+  padding-top: 20px
+}
+.sellPage img {
+  height: 700px;
+  padding: 50px 0 0 0;
+  margin: 0 0 30px 140px;
+}
+.sellPage .mouse-click {
+  font-size: 6em;
+  padding-top: 250px;
+}
 .slide_wrapper {
+  display: flex;
+  align-items: center;
   margin-top: 100px;
   position: relative;
-  width: 1920px;
+  width: 93.5%;
   margin: auto;
   height: 600px;
   overflow: hidden;
