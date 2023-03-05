@@ -158,7 +158,7 @@ if(!isset($_SESSION['unique_id'])) {
     </div>
     <div class="chat_right">
           <div class="my_info">
-               <img src="./assets/images/my_introduce.jpg" alt="マイシステム紹介">
+               <img src="./assets/images/my_introduce.JPG" alt="マイシステム紹介">
           </div>
     </div>
 </div>

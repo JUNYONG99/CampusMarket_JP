@@ -164,7 +164,7 @@ if(!isset($_SESSION['unique_id'])) {
                  <div class="user_myimg1">
                  <form action="php/update_user.php" method="POST" enctype="multipart/form-data">
                   <label for="proImg">
-                     <img id="profilePreview" src="./assets/images/file_img.jpg">  
+                     <img id="profilePreview" src="./assets/images/file_img.JPG">  
                   </label>
                   <input type="file" id="proImg" name="profile" accept='image/jpeg,image/gif,image/png'>
                  </div>

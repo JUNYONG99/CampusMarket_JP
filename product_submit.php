@@ -116,7 +116,7 @@ if(!isset($_SESSION['unique_id'])) {
 						<li id="file_li">
 							<div class="img_wrap">
               <label for="mainImg">
-                <img id="mainPreview" src="./assets/images/file_img.jpg">
+                <img id="mainPreview" src="./assets/images/file_img.JPG">
               </label>
               <input type="file" id="mainImg" name="main" accept='image/jpeg,image/gif,image/png'> 
               </div>
@@ -160,7 +160,7 @@ document.getElementById('mainImg').addEventListener('change', (e) => {
               <span class="fileList">
               <div class="img_wrap">
               <label for="sub_1">
-                <img id="subPage1" src="./assets//images/file_img.jpg"  >
+                <img id="subPage1" src="./assets//images/file_img.JPG"  >
               </label>
               <input type="file" id="sub_1" name="sub_1" accept='image/jpeg,image/gif,image/png' >
               </div>
@@ -192,7 +192,7 @@ document.getElementById('sub_1').addEventListener('change', (e) => {
 </script>              
               <div class="img_wrap">
               <label for="sub_2">
-                <img id="subPage2" src="./assets//images/file_img.jpg"  >
+                <img id="subPage2" src="./assets//images/file_img.JPG"  >
               </label>
               <input type="file" id="sub_2" name="sub_2" accept='image/jpeg,image/gif,image/png'>
               </div>
@@ -226,7 +226,7 @@ document.getElementById('sub_2').addEventListener('change', (e) => {
 </script>    
               <div class="img_wrap">
               <label for="sub_3">
-                <img id="subPage3" src="./assets//images/file_img.jpg"  >
+                <img id="subPage3" src="./assets//images/file_img.JPG"  >
               </label>
               <input type="file" id="sub_3" name="sub_3" accept='image/jpeg,image/gif,image/png'>
               </div>
