@@ -4,7 +4,7 @@ used school website
 大学生向け中古取引サイト
 <br>
 
-![image](https://user-images.githubusercontent.com/118879439/223015509-157f9372-1e4e-446e-8ad6-103e49e5c41f.png)
+![image](https://user-images.githubusercontent.com/118879439/227265000-860406aa-d6d8-4369-b911-e93cf32475f1.png)
 
 <br>
 
